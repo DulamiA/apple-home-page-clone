@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     z-index:1400;
     width: 100%;
     height: 4.4rem;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.75);
     backdrop-filter: blur(2rem);
     display: flex;
     align-items: center;
