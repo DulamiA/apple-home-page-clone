@@ -28,7 +28,7 @@ const slides = [
 const variants = {
     enter: (direction) => {
         return {
-            x: direction > 0 ? 1000 : -1000,
+            x: direction > 0 ? 1387 : -1387,
             opacity: 0
         };
     },
@@ -40,7 +40,7 @@ const variants = {
     exit: (direction) => {
         return {
             zIndex: 0,
-            x: direction < 0 ? 1000 : -1000,
+            x: direction < 0 ? 1387 : -1387,
             opacity: 0
         };
     }
