@@ -161,22 +161,25 @@ const Home = ()=>{
                     />
                 </div>
             </div>
-            <div className="slideshow-container">
-                <AnimatePresence initial={false} custom={direction}>
-                    <motion.img
-                        key={page}
-                        src={slides[page % slides.length]}
-                        custom={direction}
-                        variants={variants}
-                        initial="enter"
-                        animate="center"
-                        exit="exit"
-                        transition={{
-                            x: { type: "spring", stiffness: 300, damping: 30 },
-                            opacity: { duration: slideTransitionTime }
-                        }}
-                    />
-                </AnimatePresence>
+            <div className="slideshow-margin">
+                <div className="slideshow-container">
+                    <AnimatePresence initial={false} custom={direction}>
+                        <motion.img
+                            className="motion-image"
+                            key={page}
+                            src={slides[page % slides.length]}
+                            custom={direction}
+                            variants={variants}
+                            initial="enter"
+                            animate="center"
+                            exit="exit"
+                            transition={{
+                                x: { type: "spring", stiffness: 200, damping: 30 },
+                                opacity: { duration: slideTransitionTime }
+                            }}
+                        />
+                    </AnimatePresence>
+                </div>
             </div>
         </div>
     )

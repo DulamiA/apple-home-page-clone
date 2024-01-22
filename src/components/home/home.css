@@ -167,6 +167,19 @@
     width: 50%;
 }
 
+.slideshow-margin{
+    width: 110rem;
+    margin: 0px auto;
+}
+
+.slideshow-container{
+    width: 100%;
+    align-items: center;
+}
+
+.motion-image{
+    width: 100%;
+}
 @media only screen and (max-width: 732px){
     .visionPro{
         background: url("../../images/small/hero_apple_vision_pro_small.jpg");
