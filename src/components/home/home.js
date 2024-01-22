@@ -102,6 +102,7 @@ function home(){
                     />
                 </div>
             </div>
+        
         </div>
     )
 }
