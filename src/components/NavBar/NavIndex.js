@@ -52,20 +52,23 @@ function NavBar(){
                             Support
                         </NavLink>
                     </NavMenue>
-                    <NavLogoLink to = '/search'>
-                        <img
-                            src={SearchLogo}
-                            className="nav-logo"
-                            alt="searchLogo"
-                        />
-                    </NavLogoLink>
-                    <NavLogoLink to = '/bag'>
-                        <img
-                            src={BagLogo}
-                            className="nav-logo"
-                            alt="bagLogo"
-                        />
-                    </NavLogoLink>
+                    <div style={{display:'flex'}}>
+                        <NavLogoLink to = '/search'>
+                            <img
+                                src={SearchLogo}
+                                className="nav-logo"
+                                alt="searchLogo"
+                            />
+                        </NavLogoLink>
+                        <NavLogoLink to = '/bag'>
+                            <img
+                                src={BagLogo}
+                                className="nav-logo"
+                                alt="bagLogo"
+                                style={{marginRight:"10px"}}
+                            />
+                        </NavLogoLink>
+                    </div>
                 </Container>
             </Nav>
         </>

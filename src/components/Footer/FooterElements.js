@@ -72,10 +72,18 @@ export const Line = styled.hr`
 
 export const Container2 = styled.div`
   display: flex;
+
+  @media (max-width: 1000px){
+    flex-direction:column;
+  }
 `
 
 export const Container3 = styled.div`
   display: flex;
   margin-top:10px;
   margin-left: 60px;
+
+  @media (max-width: 1000px){
+    margin-left: 0px;
+  }
 `

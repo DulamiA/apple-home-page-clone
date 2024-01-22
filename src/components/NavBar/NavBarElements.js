@@ -20,6 +20,7 @@ export const Container = styled.div`
     padding: 0 2.2rem;
     display: flex;
     justify-content: space-between;
+    width:100%
 `
 
 export const NavMenue = styled.div`

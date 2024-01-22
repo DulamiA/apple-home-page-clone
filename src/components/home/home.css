@@ -166,3 +166,120 @@
 .section2-content{
     width: 50%;
 }
+
+@media only screen and (max-width: 732px){
+    .visionPro{
+        background: url("../../images/small/hero_apple_vision_pro_small.jpg");
+        height: 52.2rem;
+        background-size: auto 62.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: .6rem solid #fff;
+        border-bottom: .6rem solid #fff;
+    }
+    .visionPro-title{
+        color: black;
+        text-align: center;
+        padding-top: 35rem;
+    }
+    .visionProLogo{
+        width: 150px;
+        height: 30px;
+    }
+
+    .title-sub-heading{
+        font-size: 2rem;
+        margin-top: .6rem;
+        letter-spacing: .008rem;
+        font-weight: 400;
+    }
+
+    .title-para{
+        font-size: 1.6rem;
+        color: #727272;
+        margin-top: 1.5rem;
+    }
+
+    .link{
+        color: #06c;
+        font-size: 1.7rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .iphone15pro{
+        background: url("../../images/small/hero_iphone15pro_small.jpg");
+        height: 52.2rem;
+        background-size: auto 62.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: .6rem solid #fff;
+        border-bottom: .6rem solid #fff;
+    }
+    .iPhone15pro-title-heading{
+        font-size: 3.1rem;
+        line-height: 1.07143;
+        letter-spacing: -.01rem;
+    }
+
+    .iphone15{
+        background: url("../../images/small/hero_iphone15_announce_small.jpg");
+        height: 52.2rem;
+        background-size: auto 62.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: .6rem solid #fff;
+        border-bottom: .6rem solid #fff;
+    }
+
+    .section2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .section2-content{
+        width: 100%;
+    }
+
+    .watch{
+        background: url("../../images/hero_apple_watch_unity_large.jpg");
+        height: 52.2rem;
+        background-size: auto 62.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: .6rem solid #fff;
+        border-bottom: .6rem solid #fff;
+    }
+
+    .watchSeries9{
+        background: url("../../images/promo_apple_watch_series_9_large.jpg");
+        height: 52.2rem;
+        background-size: auto 62.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: .6rem solid #fff;
+        border-bottom: .6rem solid #fff;
+        width: 100%;
+    }
+
+    .watchUntra2{
+        background: url("../../images/promo_apple_watch_ultra2_large.jpg");
+        height: 60.2rem;
+        background-size: auto 62.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: .6rem solid #fff;
+        border-bottom: .6rem solid #fff;
+        width: 100%;
+    }
+
+    .mbp{
+        background: url("../../images/small/promo_mbp_small.jpg");
+        height: 52.2rem;
+        background-size: auto 62.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: .6rem solid #fff;
+        border-bottom: .6rem solid #fff;
+        border-right: 1.2rem solid #fff;
+    }
+}
