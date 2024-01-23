@@ -31,6 +31,7 @@ export const NavMenue = styled.div`
         display: none;
         display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
         flex-direction: column;
+        align-items:flex-start;
         width: 93%;
         background-color:rgb(29, 29, 31);
         position: fixed;
